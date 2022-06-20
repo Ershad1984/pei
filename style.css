@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: 100vh;
+    
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+       
+
+  }
+  .containerr{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: now wrap;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(35, 223, 129);
+
+  }
+
+  .logo{
+    padding-left: 20px;
+    color: #6534d9;
+  }
+   .inputt span{
+    color: red;
+    font-size: 25px;
+  
+  }
+
+  .sign-part{
+    padding-right: 20px;
+
+  }
+  .sign-part p{
+    color: red;
+  }
+  .icon{
+    padding-left: 20px;
+  }
+
+  
+
+  .main-content{
+    height: calc(100vh-100px);
+    
+   }
+.container{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: now wrap;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    background-color:#ffffff;
+
+}
+.login-part{
+    padding-left: 30ppx;
+}
+.inputt{
+    padding-top: 50px;
+   
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+.button{
+    padding: 3px 30px;
+    border-radius: 30px;
+    background-color: #6534d9;
+    border-style: none;
+}
+h2{
+    font-size: 10px;
+    
+}
+.footer{
+     display: flex;
+     width: 50%;
+     justify-content: center;
+     justify-items: center;
+     margin-top: -100px;
+     margin-left: 300px;
+     text-decoration: #ffffff;
+
+    
+
+}
+ 
+
+
+
+
